@@ -25,15 +25,6 @@ var Countdown = React.createClass({
      }
     }
   },
-  // componentWillUpdate: function (nextProps, nextState) {
-  //
-  // },
-  // componentWillMount: function () {
-  //   console.log('componentWillMount');
-  // },
-  // componentDidMount: function () {
-  //   console.log('componentDidMount');
-  // },
   componentWillUnmount: function () {
 
     clearInterval(this.timer);
